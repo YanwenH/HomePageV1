@@ -1,0 +1,346 @@
+#something{
+  font-family:Gloria Hallelujah;
+  font-size:xx-small;
+}
+#different{
+  font-family:Gloria Hallelujah;
+  font-size:small;
+}
+
+
+
+.btn-into{
+    display: inline-block;
+    font-weight:bold;
+    color: #17a2b8;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid #17a2b8;
+    padding: .375rem .75rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-outline-light{
+    color: rgb(190,190,190);
+    background-color: transparent;
+    border: 1px solid rgb(190,190,190);
+}
+
+
+.navbar.fixed-top{
+    padding-left: 5%;
+    padding-right: 2%;
+    height:70px;
+    background-color: rgba(232,234,212,0.90);
+    color:black;
+}
+
+
+.different img{
+    border-radius:50%;    
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    
+    
+}
+.different img:hover{
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}
+
+hr.hr2:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: 0; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+}
+
+hr.hr1:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+
+.home-bottom{
+  padding:0;
+  margin:0;
+}
+
+.web-icon{
+  min-width:8px;
+}
+
+.navbar-brand{
+   color:rgb(99,99,99);
+    font-family: 'Montez', cursive;
+    font-size:xx-large;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+#name, #copyright,.pagetitles, .home-intro-title{
+   font-family: 'Montez', cursive;
+}
+
+.home-intro{
+  font-size: large;
+  line-height: 1.5;
+}
+
+#thanks{
+  font-family: 'Montez', cursive;
+  font-size: xx-large;
+}
+
+.cities,.schools, .project-names{
+font-family: 'Pacifico', cursive;
+}
+/*.tablink {
+  text-align: center;
+  background-color: white;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}*/
+.more-title{
+  font-size: normal;
+  padding:1%;
+}
+.pagetitle2{
+  font-family: 'Spectral', serif;
+}
+
+body{
+  font-family: 'Cormorant Upright', serif;
+  font-size: large;
+  min-height: 100%;
+  background-attachment: fixed;
+}
+.container-fluid{
+  width:100%;
+  margin-top:70px;
+  margin-bottom:1%;
+  padding:0 10% 0 7%;
+  min-height: 100vh;
+}
+
+#myTab{
+  padding-top: 70px;
+  line-height: 1.8;
+  min-width: auto;
+}
+
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.link-tabs{
+  color:gray;
+}
+
+.nav-tabs .nav-link{
+  text-shadow:1px 1px white;
+  font-weight: bold;
+  border-top-right-radius: 0;
+  border-top-left-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+  border-right:0;
+  min-width: 50px;
+}
+.nav-link.show:hover{
+    transform: scale(1.2);
+}
+
+
+.tab-pane{
+  min-height: 100vh;
+
+}
+
+.sections{
+  margin-left:0;
+  margin-right:0;
+  padding-left:0;
+  padding-right:0;
+}
+
+.profile{
+ padding-top: 15%;
+ background-color: rgba(245,245,233,0.90);
+ height:100%;
+}
+
+#screen{
+  background-image:url(imgs/screen-final.jpg); 
+  min-height: 490px;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  font-family: 'Indie Flower', cursive; 
+  font-size: large;
+  background-opacity: 0.2;
+}
+
+#resume-file{
+  background-image: url(imgs/resume.png);
+
+  min-height: 1100px;
+  background-repeat: no-repeat; 
+  background-size: contain;
+  width:100%;
+  margin:0;
+}
+
+
+a{
+  color:#17a2b8;;
+  font-weight: bold;
+}
+
+.cp0-7 img:hover{
+  transform: scale(1.2);
+}
+
+.cp0-7 img:active{
+  transform:rotate(-10deg);
+
+}
+
+.p0-3 img:hover{
+transform: scale(1.2);
+}
+
+.p0-3 img:active{
+  transform:scale(0.9);
+}
+
+.btn {
+    font-size: 0.8rem;
+    padding: .375rem .375rem;
+    line-height: 1.25;
+}
+
+.btn-download{
+  font-weight:bold;
+}
+
+
+.col-9{
+  padding-left: 4%;
+}
+
+.cities img{
+  border-radius: 5%;
+}
+
+.cities img:hover{
+    transform: scale(1.5);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.schools img:hover{
+  transform: scale(1.1);
+}
+
+.companies img:hover{
+  transform: rotate(10deg);
+}
+
+
+
+#home{background-color: rgba(240,240,228,0.90);}
+#academics{background-color: rgba(245,248,233,0.90);}
+#project{background-color: rgba(248,250,243,0.90);}
+#other{background-color: rgba(251,253,248,0.9);}
+#resume{background-color: rgba(266,266,260,0.9); }
+
+#home-tab{background-color: rgba(240,240,228,0.90);}
+#academics-tab{background-color: rgba(245,248,233,0.90);}
+#project-tab{background-color: rgba(248,250,243,0.90);}
+#other-tab{background-color: rgba(251,253,248,0.9);}
+#resume-tab{background-color: rgba(266,266,260,0.9); }
+
+
+.project-desc{
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.project-desc .desc{
+ vertical-align: bottom; 
+}
+
+
+.photo {
+	margin-left: auto;
+  margin-right: auto;
+  width: 68%;
+  border-radius: 80%;
+  display: block;
+}
+
+#intro-photo{
+  padding-right:5%;
+}
+
+#intro-photo img{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15%;
+  display: block;
+}
+
+.project-icons{
+	width:100px;
+	height:100px;
+}
+
+.bg-dark {
+    padding: 0;
+    background-color: #343a40!important;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:50px;
+    color: black;
+}
+
+#footer-navbar{
+  padding-top:0;
+  padding-left:25px;
+}
+
+
+
+
+
+
